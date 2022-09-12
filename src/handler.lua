@@ -1,10 +1,8 @@
 local access = require "kong.plugins.kong-auth-request.access"
 local AuthRequestHandler = {
 	  VERSION  = "0.1.8",
-          PRIORITY = 10,
+          PRIORITY = 900,
     }
-
-AuthRequestHandler.PRIORITY = 900
 
 function AuthRequestHandler:new()
   AuthRequestHandler.super.new(self, "kong-auth-request")
