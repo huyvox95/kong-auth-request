@@ -6,7 +6,7 @@ supported_platforms = {"linux", "macosx"}
 
 source = {
   url = "git://github.com/huyvox95/kong-auth-request",
-  tag = "master"
+  tag = "0.1.8"
 }
 
 description = {
