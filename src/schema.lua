@@ -14,6 +14,6 @@ local schema = {
         auth_response_headers_to_forward = { type = "array", default = {} }
     }
   }
-  },
+},
 
 return schema
