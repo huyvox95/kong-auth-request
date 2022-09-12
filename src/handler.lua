@@ -1,6 +1,6 @@
 local access = require "kong.plugins.kong-auth-request.access"
 local AuthRequestHandler = {
-	  VERSION  = "0.18",
+	  VERSION  = "0.1.8",
           PRIORITY = 10,
     }
 
