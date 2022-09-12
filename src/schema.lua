@@ -12,8 +12,9 @@ local schema = {
         auth_uri = { required = true, type = "string" },
         origin_request_headers_to_forward_to_auth = { type = "array", default = {} },
         auth_response_headers_to_forward = { type = "array", default = {} },
+        },
     },
-  },
+}
 }
 
 return schema
